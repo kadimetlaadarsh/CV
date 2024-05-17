@@ -1,0 +1,35 @@
+h3{
+    color: blue;
+}
+h1{
+    color:blue;
+    border: 20px;
+}
+p{
+    color:grey;
+}
+
+li{
+    list-style-type:upper-latin;
+}
+
+.special{
+    color:black;
+    font-weight:lighter;
+}
+
+span.special,li.special{
+    color:pink;
+    font-weight:lighter;
+}
+
+li em{
+    color:chartreuse
+}
+
+h1+p{
+    font-size: 200%;
+}
+button{
+    color:red;
+}

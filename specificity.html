@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="specificity.css">
+    <style>
+        ul#essentials li.special{
+            color:red;
+            font-weight: bold ;
+        }
+        
+        ul#essentials li{
+            font-size: 12px;
+            color:black;
+            font-weight: normal;
+        } 
+    </style>
+    <title>Specificity</title>
+</head>
+<body>
+    <ul id="essentials">
+        <li>Milk</li>
+        <li class = "special">cofee</li>
+        <li class ="powder" style="color:pink">tea</li>
+        <li>peanut butter</li>
+        <li>Bread</li>
+    </ul>
+</body>
+</html>
